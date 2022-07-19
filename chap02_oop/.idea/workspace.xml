@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e2c788c-40fc-4484-afc9-8d8a6e611269" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/classes/classpart/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/classpart/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/classpart/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/classpart/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classpart/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classpart/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e2c788c-40fc-4484-afc9-8d8a6e611269" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +48,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cooperation" />

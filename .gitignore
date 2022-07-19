@@ -1,0 +1,14 @@
+.idea
+
+chap01_basic/.idea
+chap01_basic/.gradle
+chap01_basic/build.gradle
+chap01_basic/gradlew.bat
+chap01_basic/settings.gradle
+chap01_basic/gradle
+chap01_basic/out
+chap01_basic/src/test
+
+chap02_oop/.idea
+chap02_oop/out
+
