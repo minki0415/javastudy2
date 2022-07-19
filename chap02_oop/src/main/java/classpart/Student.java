@@ -4,9 +4,11 @@ public class Student {
 
     //멤버변수
     int studentId; //학번
-    String studentName; //학생이름
+    private String studentName; //학생이름
     int grade; //학년
     String address; //주소
+
+
 
     public Student(int studentId, String studentName, int grade, String address) {
         this.studentId = studentId;
@@ -14,6 +16,8 @@ public class Student {
         this.grade = grade;
         this.address = address;
     }
+
+    public Student() {};
 
     public void showStudentInfo() {
         System.out.println(studentName+ ", " + address);
