@@ -8,6 +8,7 @@ public class ObjectCopy1 {
         Book[] bookArr1 = new Book[3];
         Book[] bookArr2 = new Book[3];
 
+        //얕은복사
         //객체 배열의 요소에 저장된 값은 인스턴스 자체가 아니고 인스턴스의 주소값이다.
         bookArr1[0] = new Book("태백산맥", "조정래");
         bookArr1[1] = new Book("데미안", "헤르만 헤세");
