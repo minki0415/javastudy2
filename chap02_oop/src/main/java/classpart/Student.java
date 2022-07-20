@@ -8,12 +8,9 @@ public class Student {
     int grade; //학년
     String address; //주소
 
-<<<<<<< HEAD
-
-=======
     Subject korean;
     Subject math;
->>>>>>> 34e3cfbfe3a338b09d54d032d4c935e01804b12c
+
 
     public Student(int studentId, String studentName, int grade, String address) {
         this.studentId = studentId;
@@ -22,11 +19,8 @@ public class Student {
         this.address = address;
     }
 
-<<<<<<< HEAD
     public Student() {};
-=======
-    public Student() {}
->>>>>>> 34e3cfbfe3a338b09d54d032d4c935e01804b12c
+
 
     public void showStudentInfo() {
         System.out.println(studentName+ ", " + address);
