@@ -1,10 +1,12 @@
 package collection;
 
-public class Member implements Comparable<Member> {
+import java.util.Comparator;
+
+public class Member2 implements Comparator<Member2> {
     private int memberId;
     private String memberName;
 
-    public Member(int id, String name) {
+    public Member2(int id, String name) {
         memberId = id;
         memberName = name;
     }
@@ -36,18 +38,19 @@ public class Member implements Comparable<Member> {
     }
 
     @Override
+    public int compare(Member2 member1, Member2 member2) {
+        return member1.getMemberId() - member2.getMemberId();
+    }
+
+    @Override
     public boolean equals(Object obj) {
-        if(obj instanceof Member) {
-            Member member = (Member)obj;
+        if(obj instanceof Member2) {
+            Member2 member = (Member2)obj;
             if(this.memberId == member.memberId) return true;
             else return false;
         }
         return false;
     }
 
-    @Override
-    public int compareTo(Member member) {
-        return (this.memberId - member.memberId);
-    }
 }
 
